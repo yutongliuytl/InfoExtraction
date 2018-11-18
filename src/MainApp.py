@@ -10,7 +10,7 @@ def main():
     # Build Gui and start it
     root = tk.Tk()
     root.title('InfoPassport')
-    root.geometry('400x400')
+    root.geometry('600x600')
 
     controller.init_view(root)
 
