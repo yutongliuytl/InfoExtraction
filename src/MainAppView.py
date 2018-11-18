@@ -30,10 +30,11 @@ class MainAppView(tk.Frame):
         self.l1.grid(row=1, column=0)
 
         variable = StringVar(self)
+        variable.set("one")
 
-        self.dd1 = tk.OptionMenu(self, StringVar(self.master).set("one"), "one", "two", "three")
+        self.dd1 = tk.OptionMenu(self, variable, "one", "two", "three")
         self.dd1["width"] = 20
-        self.dd1.grid(row=1, column=2ß)
+        self.dd1.grid(row=1, column=2)
 
 
     def __init__(self, master=None):
