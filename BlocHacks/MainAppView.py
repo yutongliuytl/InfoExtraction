@@ -17,7 +17,7 @@ class MainAppView(tk.Frame):
     def createWidgets(self):
 
         self.title = tk.Label(
-                self, text = " Import your PDF of JPG file: ")
+                self, text = " Import your PNG or JPG file: ")
         self.title.grid(
             row=0, column=0,columnspan=1, sticky = tk.E+tk.W )
 

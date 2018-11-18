@@ -16,7 +16,8 @@ def OCR(filename):
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
 
-    pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe' #For Windows
+    #pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR-Mac/bin/tesseract' #For Mac
     text = pytesseract.image_to_string(image)
 
     file = open("data.txt", 'w')
