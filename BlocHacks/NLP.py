@@ -31,7 +31,7 @@ def NLP():
     birthday_keys = ["born", "birth"]
     origin_keys = ["from", "born", "birth", "my"]
     language_keys = ["speak", "first", "mother tongue", "native", "language"]
-    person_keys = ["am", "name", "I am", "called", "I'm"]
+    person_keys = ["am", "name", "I am", "called", "I'm", "of"]
     nationality_keys = ["am", "citizen", "is"]
     weight_keys = ["kg", "kilo", "weigh", "pounds", "lbs", "g"]
     height_keys = ["meter", "feet", "foot", "ft", "cm", "m"]
