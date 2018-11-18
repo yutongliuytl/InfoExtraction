@@ -26,13 +26,13 @@ class MainAppView(tk.Frame):
         self.one.grid(row=0, column=2)
 
         self.l1 = tk.Label(self)
-        self.l1["text"] = "First Name"
+        self.l1["text"] = "Option: "
         self.l1.grid(row=1, column=0)
 
         variable = StringVar(self)
-        variable.set("one")
+        variable.set("First Name")
 
-        self.dd1 = tk.OptionMenu(self, variable, "one", "two", "three")
+        self.dd1 = tk.OptionMenu(self, variable, "Last Name", "Nationality", "Date of Birth", "Passport Country", "Height")
         self.dd1["width"] = 20
         self.dd1.grid(row=1, column=2)
 
