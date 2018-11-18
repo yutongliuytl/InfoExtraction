@@ -26,6 +26,7 @@ class MainAppView(tk.Frame):
         self.one.grid(row=1, column=0)
 
         self.l1 = tk.Label(self)
+
         self.l1["text"] = "First Name"
         self.l1.grid(row=2, column=0)
 
